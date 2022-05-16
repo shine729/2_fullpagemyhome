@@ -1,0 +1,56 @@
+@charset 'utf-8';
+/* CSS Document */
+
+/* reset (mobile) */
+html {-webkit-text-size-adjust: none; text-size-adjust: none;}
+body {margin: 0;}
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, table {margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight: 700;}
+main {display: block;}
+a {color: inherit; text-decoration: inherit;}
+a img {border: none;}
+img {vertical-align: middle; max-width: 100%;}
+li {list-style: none;}
+address, em, i, cite {font-style: normal;}
+table {border-collapse: collapse;}
+table caption {overflow: hidden; width: 0; height: 0;}
+i.fas, i.far, i.fab {vertical-align: middle; display: inline-block;}
+i.fas span, i.far span, i.fab span {position: absolute; overflow: hidden; text-indent: -999px;}
+.pc {display: none !important;}
+.hidden {position: absolute; left: -9999px;}
+br.only-pc {content: '';}
+br.only-pc:after {content: '\00a0';}
+
+
+
+/* common */
+button {background-color: transparent; border: none;}
+.blind {display: none;}
+nav { position: absolute; width: 100%; margin:0 auto; z-index: 70; box-sizing: border-box;} 
+nav ul { display: inline-block; }
+#menu_wrap { position: absolute; top:50px; left: 50%; transform: translate(-50%,0);}
+#menu { display: inline-block;}
+#menu li a { font-size: 11px; color:#dadada; }
+#icon { margin-left: 80px; }
+#icon li { /* border:2px solid red; */ display: inline-block; margin:5px;}
+nav h1 a {background-image: url("../img/logo.png"); background-position: center; background-size: contain;
+display: inline-block; width: 50px; height: 50px;}
+#logo{position: absolute; top:30px; left:30px;}
+
+
+
+/* section0 */
+#p_wrap1{ color:#e7e7e7; font-size:20px; position:absolute; z-index:1; left:50%; top:50%; transform: translate(-50%, -50%);}
+#section0 p { color:#e7e7e7; font-size:15px; }
+#myVideo { position: absolute; right: 0; top: 0; min-width: 100%; min-height: 100%; }
+
+
+/* section1 */
+#section1{ background: url("../img/section1.jpg") no-repeat; background-position: center; background-size: cover;}
+#p_wrap2{color:white; padding:50px;}
+#p_wrap2 p{font-size:13px; color:#bcbcbc;}
+#p_wrap2 div{ float:left; font-size:12px; margin-top:20px; margin-right:5%;}
+
+
+/* section2 */
+#section2 { background: url("../img/car_garage.jpg") no-repeat; background-position: center bottom; background-size: cover;}

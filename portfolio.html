@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="author" content="parksoyoung" />
+    <meta
+      name="description"
+      content="늘 새로운 코드를 꿈꾸는 퍼블리셔입니다."
+    />
+    <meta name="keyword" content="publisher,jquery,desiner" />
+    <meta name="resource-type" content="document" />
+
+    <meta property="og:title" content="parksoyoung" />
+    <meta property="og:url" content="http://shine729.dothome.co.kr/" />
+    <meta property="og:image" content="img/meta_logo.png" />
+    <meta
+      property="og:description"
+      content="늘 새로운 코드를 꿈꾸는 퍼블리셔입니다."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="엔게디캠프" />
+    <meta name="twitter:url" content="http://shine729.dothome.co.kr/" />
+    <meta name="twitter:image" content="img/meta_logo.png" />
+    <meta
+      name="twitter:description"
+      content="늘 새로운 코드를 꿈꾸는 퍼블리셔입니다."
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/adaptive.js"></script> -->
+    <script src="js/nav_bar.js"></script>
+   <!-- <script src="js/date.js"></script> -->
+    <!--[if IE]>
+      <script type="text/javascript">
+        var console = { log: function () {} };
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav>
+      <h1><a href="#firstPage">parksoyoung</a></h1>
+      <p id="profile">Publisher/ux Designer<br>
+        <a href="mailto:hppy96@naver.com">mail.hppy96@naver.com</a>
+      </p>
+     
+      <p id="visionbox">삶,사랑,사람<br>멋있는말 ..비전......</p>
+      <p id="date">오늘의 시간정보가 들어갑니다</p>
+    
+
+
+
+    <ul id="menu">
+      <li data-menuanchor="s1" class="active">
+        <a id="menu1" href="#s1">about me</a>
+      </li>
+      <li data-menuanchor="s2">
+        <a id="menu2" href="#s2">profile</a>
+      </li>
+      <li data-menuanchor="s3">
+          <a id="menu3" href="#s3">design</a>
+        </li>
+      <li data-menuanchor="s4">
+          <a id="menu4" href="#s4">publish</a>
+        </li>
+      <li data-menuanchor="s5">
+          <a id="menu5" href="#s5">ui/ux</a>
+        </li>
+        <li data-menuanchor="s6">
+          <a id="menu6" href="#s6">contact</a>
+        </li>
+      </nav>
+      
+    </ul>
+
+    <div id="fullpage">
+      <div class="section" id="section0">
+         <div class="content1">
+        <h2>Section1 </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ut officia repellendus culpa, 
+          cumque rem non nulla quam ullam quibusdam alias consectetur tenetur ducimus placeat temporibus, error nesciunt, quisquam tempora.</p>
+      </div>
+      <div class="content2">
+        <h2>Section1 </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ut officia repellendus culpa, 
+          cumque rem non nulla quam ullam quibusdam alias consectetur tenetur ducimus placeat temporibus, error nesciunt, quisquam tempora.</p>
+      </div>
+      </div>
+      <div class="section" id="section1">
+        <h2>Section 2</h2>
+      </div>
+      <div class="section" id="section2">
+          <h2>Section 3</h2>
+        </div>
+        <div class="section " id="section3">
+              <h2>Section 4</h2>
+            </div>
+            <div class="section " id="section4">
+               <h2>section5</h2>
+                </div>
+                <div class="section " id="section5">
+                  <h2>last</h2>
+                   </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/fullpage.js"></script>
+   
+    <script type="text/javascript">
+      var myFullpage = new fullpage("#fullpage", {
+        sectionsColor: ["violet", "blue", "green", "yellow", "pink","aqua"],
+        anchors: ["s1", "s2", "s3", "s4","s5", "s6"],
+        menu: "#menu",
+        lazyLoad: true,
+      });
+    </script>
+  </body>
+</html>

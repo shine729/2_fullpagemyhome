@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+  
+
+ <style type="text/css">
+   a, a:hover, a:visited{color:#fff; text-decoration:none;}
+ 
+   #pop{
+    width:300px; height:400px; background:#3d3d3d; color:#fff;
+    position:absolute; top:10px; left:500px; text-align:center;
+    border:2px solid #000;
+   }
+ 
+   .pop_bt{
+    border:1px solid #000;
+    width:100px; margin:auto;
+    margin-top:300px;
+    cursor: pointer;
+    font-weight:bold;
+    text-align:center;
+    padding:5px;
+   }
+ 
+   #close{
+  
+    width:100px; margin:auto; cursor:pointer; font-weight:bold;
+   }
+
+ </style>
+
+ 
+
+ <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+ 
+
+ <script type="text/javascript">
+   $(document).ready(function() {
+    $('.pop_bt').click(function() {
+     $('#pop').show();
+    });
+
+    $('#close').click(function() {
+     $('#pop').hide();
+    });
+   });
+ </script>
+
+
+ 
+
+ </head>
+
+ <body>
+
+ 
+
+  <div class="pop_bt">
+   팝업띄우기
+  </div>
+
+  <div class="pop_bt">
+    팝업띄우기
+   </div>
+ 
+
+  <div id="pop" style="display:none;">
+    <div style="height:370px;">
+      안녕하세요 늑대털쓴양입니다.
+
+    </div>
+    
+
+    <div>
+      <div id="close">close</div>
+     </div>
+  </div>
+
+ 
+
+ </body>
+
+</html>
+
+
+

@@ -1,0 +1,22 @@
+#section0 {
+  /* background-image: url("../img/bg1.jpg");
+  background-image: cover; */
+}
+
+#section1::before {
+  content: "ddddd";
+  font-size: 100px;
+  color: white;
+  border: 3px solid white;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-image: url("../img/bg1.jpg");
+  background-size: cover;
+  transform: scaleY(-1);
+  filter: greyscale(100%);
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100; ---이값은 만약 after값을 주고 싶으면 이미지가 밑에 깔려서 줘야함*/
+}
